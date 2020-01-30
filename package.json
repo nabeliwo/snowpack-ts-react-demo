@@ -1,0 +1,29 @@
+{
+  "name": "snowpack-ts-react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "snowpack": "snowpack",
+    "develop": "babel src/ --extensions '.ts,.tsx' --out-dir lib --watch"
+  },
+  "keywords": [],
+  "author": "nabeliwo",
+  "license": "MIT",
+  "dependencies": {
+    "react": "npm:@reactesm/react@^0.1.0",
+    "react-dom": "npm:@reactesm/react-dom@^0.1.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^4.4.2",
+    "snowpack": "^1.1.2",
+    "typescript": "^3.7.5"
+  }
+}
